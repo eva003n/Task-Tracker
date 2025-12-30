@@ -1,0 +1,24 @@
+{
+  "name": "task-tracket-cli",
+  "version": "1.0.0",
+  "description": "This is a node js command line application that is used to track and manage your tasks",
+  "main": "bin/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eva003n/Node-projects.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "CLI"
+  ],
+  "author": "Evan ngugi wambui",
+  "license": "ISC",
+  "packageManager": "pnpm@10.24.0",
+  "bin": {
+    "task-cli": "./bin/index.js"
+  }
+}
