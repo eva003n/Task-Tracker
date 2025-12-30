@@ -1,6 +1,6 @@
 # Task CLI --- Simple Task Manager
-###  Project URL
-[Roadmap.sh](https://roadmap.sh/projects/task-tracker)
+
+[Project URL](https://roadmap.sh/projects/task-tracker)
 
 A lightweight command-line task manager built with Node.js (no external
 libraries).
