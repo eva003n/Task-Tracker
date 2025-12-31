@@ -50,6 +50,11 @@ pnpm bin -g
 ------------------------------------------------------------------------
 
 ## 🚀 Usage
+### Intialize task-cli
+This command should be run before any other commands
+```bash
+task-cli init
+```
 
 ### Show help
 
