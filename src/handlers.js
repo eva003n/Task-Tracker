@@ -121,6 +121,7 @@ const updateTask = async ({ command, subCommands }) => {
 
       // update description
       matchingTask.description = subCommands[1];
+      matchingTask.updateTask = new Date();
     } else {
       // // update task status
       // matchingTask = tasks.find(
@@ -204,6 +205,7 @@ const markAsDone = async({subCommands}) => {
        throw new CLIError(`Task ID(${subCommands[0]}) doesn't exist`);
 
      matchingTask.status = "done"; // update status
+      matchingTask.updateTask = new Date();
 
      // update task in storage"
      const failed = await writeFile(tasksFileLocation, JSON.stringify(tasks));

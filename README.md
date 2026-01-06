@@ -26,7 +26,7 @@ list, and track progress.
 Clone the project:
 
 ``` bash
-git clone https://github.com/eva003n/Node-projects.git
+git clone https://github.com/eva003n/Task-Tracker.git
 ```
 
 Link the CLI globally (so you can run `task-cli` anywhere):
